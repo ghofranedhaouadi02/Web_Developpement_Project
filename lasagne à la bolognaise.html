@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de Lasagne bolognaise
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette Lasagne bolognaise</h1>
+            <p> Ah les lasagnes ! Dans l'histoire de la gastronomie italienne, elles sont sur le podium des plats que l'on adore. </p> 
+            <div class="container">
+                <section>
+                    <h2>
+                        Lasagne bolognaise
+                    </h2>
+                    <img src="lasagne à la bolognaise.jpg" alt="image de Lasagne bolognaise" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>
+                    <h3>Pour les lasagnes</h3>
+                    <li>20 feuilles de lasagnes</li>
+                    <li>125 g de gruyère râpé IGP</li>
+                    <h3>Pour la sauce bolognaise</h3>
+                    <li>500 g de viande hachée</li>
+                    <li>400 g de tomates pelées concassées</li>
+                    <li>3 oignons</li>
+                    <li>8 cl d'huile d'olive</li>
+                    <li>Persil haché</li>
+                    <h3>Pour la sauce béchamel</h3>
+                    <li>50 cl de lait demi-écrémé</li>
+                    <li>40 g de beurre</li>
+                    <li>30 g de farine</li>
+                    <li>Sel</li>
+                    <li>Poivre</li>
+                    <li>Noix de muscade</li>                                      
+                </section>   
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:   Facile                </li>
+                    <li>Préparation:   30min</li>
+                    <li>Cuisson:      40min</li>
+                    <li>Temps Total:    1h 10min</li>      
+                </section>
+                <section>
+                    <h2>Préparation:</h2>
+                    <ol>
+                        <li>Faites précuire les feuilles de lasagne deux par deux dans de l'eau bouillante pendant 1 minute.</li><br>
+                        <li>Égouttez sur du papier absorbant.</li><br>
+                        <li>Faites revenir les oignons ciselés dans de l'huile d'olive pendant 5 minutes. </li><br>
+                        <li>Ajoutez ensuite la viande hachée, et faire revenir,pendant 4 minutes, pour la colorer.</li><br>
+                        <li>Ajoutez la pulpe de tomates, saler, poivrer et laisser mijoter pendant 10 minutes.</li><br>
+                        <h3>Pour la sauce béchamel:</h3>
+                        <li>Faites fondre le beurre dans une casserole à feu doux.</li><br>
+                        <li>Ajoutez la farine. </li><br>
+                        <li>Faites chauffer tout en mélangeant, jusqu'à ce que le mélange ressemble à un nid d'abeille. </li><br>
+                        <li>Ajoutez le lait froid petit à petit, tout en mélangeant. </li><br>
+                        <li>Remuez constamment jusqu'à ce que la sauce s'épaississe.</li><br>
+                        <li>Dans chaque plat individuel (ou un grand plat collectif), alternez:<br>
+                            un peu de sauce béchamel,<br>
+                            une couche de lasagne,<br>
+                            une couche de sauce bolognaise,<br>
+                            une couche de béchamel,<br>
+                            une couche de lasagne,<br>
+                            recommencer jusqu'à mettre une dernière couche de béchamel.</li><br>
+                        <li>Recouvrir de fromage râpé.</li><br>
+                        <li>Enfournez pour 20 minutes environ à 210°C, jusqu'à ce que la béchamel soit bien dorée.</li>   
+                    </ol>  
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis :</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div>
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                    
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer>      
+        </body>
+    </html>

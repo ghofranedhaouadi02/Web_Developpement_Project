@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de torta pistocchi
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette torta pistocchi</h1>
+            <p> torta pistocchi, un dessert délicieux et facile à réaliser. </p> 
+            <div class="container">
+                <section>
+                    <h2>
+                        torta pistocchi
+                    </h2>
+                    <img src="torta pistocchi.jpg" alt="image de torta pistocchi" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>
+                    <li>250 g de chocolat noir</li>
+                    <li>150 g de beurre</li>
+                    <li>15 g de cacao amer</li>
+                    <li>300 g de mascarpone</li>
+                    <li>80 g de sucre</li>                                   
+                </section>    
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:   Facile                </li>
+                    <li>Préparation:   15 min</li>
+                    <li>Attente: 3h</li>
+                    <li>Temps Total:    15min</li>       
+                </section>
+                <section>
+                    <h2>Préparation:</h2>
+                    <ol>
+                        <li>Pour préparer le gâteau au chocolat, commencez par faire fondre le chocolat noir avec le beurre au bain-marie.</li><br>
+                        <li>Ajoutez le cacao amer et mélangez pour le dissoudre.<br> Retirez du feu et laisser refroidir.</li><br>
+                        <li>A part, dans un grand bol, mélangez le mascarpone avec le sucre.</li><br>
+                        <li>Incorporez progressivement le chocolat noir à la crème mascarpone et au sucre.</li><br>
+                        <li>Chemisez un moule à charnière de 22 cm de diamètre de papier sulfurisé et versez-y la préparation.</li><br>
+                        <li>Placez au réfrigérateur quelques heures, jusqu'à obtenir la consistance souhaitée.</li><br>
+                        <li>Saupoudrez la surface du gâteau au chocolat de cacao amer et servez.</li>                       
+                    </ol>  
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis:</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div> 
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                    
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer>     
+        </body>
+    </html>

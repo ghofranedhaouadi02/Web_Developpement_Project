@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de la Muloukhia Tunisienne
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette de la Muloukhia Tunisienne</h1>
+            <p> Mloukhia, appelée parfois Meloukhia ou Molokheya, est un plat très populaire dans les pays du Maghreb. </p>
+            <div class="container">
+                <section>
+                    <h2>
+                        La Muloukhia Tunisienne
+                    </h2>
+                    <img src="muloukhia tunisienne.jpg" alt="image de la Muloukhia Tunisienne" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>
+                    <li>700g à 1kg de boeuf en morceaux</li>
+                    <li>100 grammes de mloukhia en poudre</li>
+                    <li>1 oignon</li>
+                    <li>4 gousses d'ail</li>
+                    <li>1 belle tomate</li>
+                    <li>1 cuillère à café de coriandre en poudre</li>
+                    <li>1 cuillère à café de carvi en poudre</li>
+                    <li>3 feuilles de laurier sauce</li>
+                    <li>1 cuillère à café de paprika doux</li>
+                    <li>1 cuillère à café d'harissa</li>
+                    <li>200ml d'huile d'olive de Tunisie</li>                                                           
+                </section>    
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:   moyen                </li>
+                    <li>Préparation:   30 min</li>
+                    <li>Cuisson:       4h</li>
+                    <li>Temps Total:   4h  30min</li>       
+                </section>
+                <section>
+                    <h2>Préparation:</h2>
+                    <ol>
+                        <li>Dans une casserole, versez 3 litres d'eau et portez à ébullition.</li>
+                        <li>Dans une marmite suffisamment grande pour recevoir tous les ingrédients, ajoutez les 200ml d'huile d'olive, les feuilles de laurier et la poudre de corète. <br>Mélangez doucement jusqu'à obtenir une préparation homogène.<br> Cela peut prendre 5 à 7 minutes.</li><br>
+                        <li>Intégrez votre eau bouillante progressivement dans votre marmite en remuant avec une cuillère en bois pour éviter les grumeaux.<br> Ne soyez pas pressé, allez-y doucement pour ne pas vous brûler.</li><br>
+                        <li>Laissez mijoter à feu doux pendant au moins 4 heures.</li><br>
+                        <li>Hachez l'oignon, écrasez l'ail et pelez la tomate avec de la couper en petits cubes. <br>Coupez la viande en morceaux si cela n'est pas déjà fait.</li><br>
+                        <li>Ajoutez ces ingrédients dans la marmite, ajoutez l'harissa et les différentes épices: paprika, coriandre, carvi, sel et poivre. <br>En ce qui concerne le sel et le poivre n'en ajoutez pas trop, il est possible d'assaisonner en fin de cuisson.</li><br>
+                        <li>Couvrir la marmite et laissez cuire à feu doux pendant encore deux heures. Lorsque l'huile remonte à la surface c'est que c'est prêt !</li><br>
+                        <li>Goûtez et rectifiez l'assaisonnement au besoin.</li><br>
+                        <li>Servez bien chaud.</li>                            
+                    </ol>  
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis:</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div>
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                    
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer>      
+        </body>
+    </html>

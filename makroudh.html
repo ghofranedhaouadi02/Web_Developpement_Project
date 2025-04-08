@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de Makroudh
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette de Makroudh</h1>
+            <p> Une bombe calorique certes, mais une bombe quand même! </p>
+            <div class="container">
+                <section>
+                    <h2>
+                        Makroudh
+                    </h2>
+                    <img src="makroudh.jpg" alt="image de Makroud" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>                   
+                    <li>Cannelle</li>
+                    <li>Miel</li>
+                    <li>Pâte de dattes</li>
+                    <li>Sucre</li>
+                    <li>Eau</li>
+                    <li>0.5 volume de beurre fondu</li>
+                    <li>Fleur d'oranger</li>
+                    <li>1,5 volume de semoule</li>                      
+                </section>   
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:       Moyen                </li>
+                    <li>Préparation:   10 min</li>
+                    <li>Cuisson:      15min</li>
+                    <li>Temps Total:    15min</li>      
+                </section>
+                <section>
+                    <h2>Préparation:</h2>
+                    <ol>
+                        <li>Dans un saladier, mettre la semoule, le beurre et de la fleur d'oranger.<br> Commencer par bien sabler la pâte pour que la semoule s'imprègne bien du beurre.</li><br>
+                        <li>Incorporer de l'eau petit à petit tout en pétrissant jusqu'à Ce que la pâte se tienne bien.<br>
+                            Laisser reposer la pâtes.<br>
+                            Pétrir la pâte de dattes.<br> Ajouter de la cannelle et continuer à pétrir.</li><br>
+                        <li>Prendre un morceau de pâte et le rouler pour former un boudin assez long,(si la pâte s'effrite ou que vous avez du mal à la rouler c'est qu'elle manque d'eau).<br>
+                            Faire un boudin de même longueur avec la pâte de dattes mais plus fin.<br>
+                            Faire une sorte de gouttière avec le pouce au centre du boudin de pâte et y placer le boudin de pâte de dattes.<br>
+                            Rabattre les bords de la pâte sur la pâte de dattes pour l'enfermer complètement.<br>
+                            Rouler le boudin pour bien le refermer et l'aplatir légèrement avec la paume de la mains.<br>                        
+                        </li><br>
+                        <li>Couper en diagonale des morceaux 3 - 4 cm.<br>
+                            Refaire la même opération tant qu'il vous reste de la pâte.<br>
+                            Plonger dans un bain d'huile vos Makroudhs.<br>
+                            Laisser refroidir légèrement et tremper dans un sirop de sucre.</li><br>
+                            <h3>Pour le sirop de sucre :</h3>
+                        <li>Mettre du sucre avec une cuillère à soupe de miel et un peu d'eau dans une casserole.<br>
+                            Porter à ébullition sans laisser brunir.<br>
+                            Personnellement je rajoute un peu de fleur d'oranger dans le sirop de sucre.</li>
+                    </ol>  
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis:</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div>  
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                    
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer> 
+        </body>
+    </html>

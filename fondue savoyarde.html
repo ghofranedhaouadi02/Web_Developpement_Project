@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de Fondue Savoyarde
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette de Fondue Savoyarde</h1>
+            <p> Amateur de fondue savoyarde, cette recette est faite pour vous !</p> 
+            <div class="container">
+                <section>
+                    <h2>
+                        Fondue Savoyarde
+                    </h2>
+                    <img src="fondue savoyarde.jpg" alt="image de fondue savoyarde" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>                   
+                    <li>Bicarbonate de sodium</li>
+                    <li>Ail</li>
+                    <li>Noix de muscade râpé</li>
+                    <li>Poivre</li>
+                    <li>eau</li>
+                    <li>500 g d'abondance AOP</li>
+                    <li>400 g de comté AOP</li>
+                    <li>500 g de beaufort AOP</li>
+                    <li>2 baguettes</li>                   
+                </section>    
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:   facile                </li>
+                    <li>Préparation:   5min</li>
+                    <li>Cuisson:      5min</li>
+                    <li>Temps Total:    10min</li>       
+                </section>
+                <section>
+                    <h2>Préparation:</h2>
+                    <ol>
+                        <li>Coupez le pain en morceaux pas trop petits.</li><br>
+                        <li>Laissez-le durcir un peu à l'air libre.</li><br>
+                        <li>Coupez les 3 fromages en petits cubes.</li><br>
+                        <li>Coupez une gousse d'ail en 2.</li><br>
+                        <li>Frottez le plat avec.</li><br>
+                        <li>Mettez le fromage dans le plat avec de l'eau (environ la moitié de la hauteur du fromage).</li><br>
+                        <li>Faites cuire 5 min à feu moyen.</li><br>
+                        <li>Mélangez régulièrement avec une cuillère en bois.</li><br>
+                        <li>Ajoutez le poivre et la noix de muscade.</li><br>
+                        <li>Mélangez encore un peu.</li><BR>
+                        <li>Servez.</li>   
+                    </ol>  
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis:</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div> 
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                    
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer>     
+        </body>
+    </html>

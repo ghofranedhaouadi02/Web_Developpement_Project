@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de Manti
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette de Manti</h1>
+            <p> Les Mantis sont des ravioles fabriquées en Turquie mais aussi dans plusieurs pays d'Asie centrale</p> 
+            <div class="container">
+                <section>
+                    <h2>
+                        Manti  
+                    </h2>
+                    <img src="manti.jpg" alt="image des mantis" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>
+                    <h3>Pour la pate:</h3>
+                    <li>450 g de farine</li>
+                    <li>2 oeufs</li>
+                    <li>une pincée de sel</li>
+                    <li>environ 1,2 litres d'eau</li>
+                    <h3>Pour la farce:</h3>
+                    <li>0,5 kg de viande hachés</li>
+                    <li>1 oignon</li>
+                    <li>une pincée de sel</li>
+                    <li>ciboulette, persil, ou autre selon envie</li>
+                    <li>3 yaourts à la grecque</li>
+                    <li>ail selon envie</li>
+                    <li>un peu de coulis de tomate</li>
+                    <li>20 g de beurre</li>
+                    <li>épices selon envie</li>
+                </section>    
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:   difficile</li>
+                    <li>Préparation:   1 h 10 mn</li>
+                    <li>Cuisson:   10 mn</li>
+                    <li>Temps Total:    1 h 20 mn</li>       
+                </section>
+                <section>
+                <h2>Préparation:</h2>
+                <ol>
+                    <li>Dans un premier temps, faire la pâte: verser la farine dans un saladier avec la pincée de sel et les oeufs.<br> Mélanger à la cuillère, puis ajouter l'eau peu à peu, pétrir à la main.<br> La pate doit être élastique entre les doigts. <br>Former une boule et laisser reposer.</li><br>
+                    <li>Faire la farce: il s'agit juste de bien mélanger la viande hachée, avec la ciboulette (ou le persil ou autre) avec l'oignon préalablement émincé.</li><br>
+                    <li>Séparer la pâte en trois parts et étaler la première sur une épaisseur d'environ 1 mm.<br> Elle est assez élastique donc demande un abaissage vigoureux.<br> A l'aide de la pointe d'un couteau, découper de petits carrés, ou triangles selon la forme que vous voulez donner à vos mantì.<br> Placer une petite boule de farce au milieu, et refermer en soudant bien les bords des raviolis à l'aide des doigts humidifiés.<br> Placer ensuite sur une assiette farinée et procédez aisi juqu'à épuisement de la farce et de la pâte.</li><br>
+                    <li>Enfin plonger les raviolis dans de l'eau bouillante pendant environ 10 minutes.<br> Quand ils sont cuits ils remontent à la surface.</li><br>  
+                    <li>Dans un bol, mélanger le yaourt avec l'ail haché.<br> Dans une petite casserole, faire chauffer le coulis de tomate, avec les épices et le beurre. Bien mélanger.</li>  
+                    <h4>Pour finir:</h4>
+                    <li>Présentation: placer les raviolis dans chaque assiette, recouvrir abondament de yaourt.<br> Ils doivent baigner dedans. <br>Avec une cuillère, décorer avec la sauce paprika et servir directement.</li>
+                </ol>
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis:</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div> 
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                    
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer>             
+        </body>
+    </html>

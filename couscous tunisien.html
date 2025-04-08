@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de Couscous tunisien
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+            </table>
+        </header>
+        <h1> Recette de Couscous Tunisien</h1>
+        <p> Le couscous est le plat traditionnel tunisien particulièrement pour les cérémonies.</p>
+        <div class="container">
+            <section>
+                <h2>
+                    Couscous  
+                </h2>
+                <img src="couscous tunisien.jpg" alt="image de Couscous" >
+            </section>
+            <section>
+                <h2>Ingrédients:(pour 4 personnes)</h2>
+                <li>250 g de semoule moyenne</li>
+                <li>1 c. à s. de concentré de tomates</li>
+                <li>2 pommes de terre</li>
+                <li>2 piment vert</li>
+                <li>Poudre de piment rouge</li>
+                <li>Sel ou sel fin</li>
+                <li>Gigot de mouton</li>
+                <li>0,5 oignon</li>
+                <li>1,5 carotte</li>
+                <li>1,5 verre d'huile d'olive</li>
+                <li>Mélange d'épices tunisien</li>
+                <li>Poivre</li>
+            </section>
+            <section>
+                <h2>Réalisation:</h2>
+                <li>Difficulté:   moyen</li>
+                <li>Préparation:   50 mn</li>
+                <li>Cuisson:    1h 30min</li>
+                <li>Temps Total:    2h 20min</li>   
+            </section>
+            <section>
+                <h2>Préparation:</h2>
+                <ol>
+                <li>Émincez finement l'oignon.</li><br>
+                <li>Le faites revenir dans de l'huile d'olive dans le fond du couscoussier ou le fond d'une cocotte basique.</li><br>
+                <li>Une fois coloré, ajoutez la viande coupée en morceaux.</li><br>
+                <li>Faites dorer.</li><br>
+                <li>Ajoutez une grosse cuillère à soupe de concentré de tomate.</li><br>
+                <li>Faites dessécher légèrement le concentré.</li><br>
+                <li>Ajoutez 4 verres d'eau.</li><br>
+                <li>Découpez les carottes dans la longueur.</li><br>
+                <li>Découpez les pommes de terre en 4.</li><br>
+                <li>Ajoutez les carottes, les pommes de terre et les piments dans la cocotte ou le couscoussier.</li><br>
+                <li>Remuez le tout.</li><br>
+                <li>Recouvrez d'eau à hauteur.</li><br>
+                <li>Ajoutez les épices.</li><br>
+                <li>Remuez bien à nouveau.</li><br>
+                <li>Salez et poivrez à convenance.</li><br>
+                <li>Baissez le feu à moyen.</li><br>
+                <li>Laissez cuire 1h jusqu'à ce que la viande se détache et que les légumes soient bien cuits.</li><br>
+                <li>Pendant ce temps, mettez la semoule dans un grand plat.</li><br>
+                <li>La mouillez de un grand verre d'huile d'olive.</li><br>
+                <li>L'égrenez à la fourchette ou à la main jusqu'à ce qu'elle soit bien séparée. </li><br>
+                <li>Mettez la semoule dans le haut du couscoussier.</li><br>
+                <li>Faites cuire 30 min en remuant de temps à autre.</li><br>
+                <li>Sortez la semoule.</li><br>
+                <li>La mouillez avec de l'eau.</li><br>
+                <li>Bien mélangez pour que les grains ne collent pas.</li><br>
+                <li>Remettez sur le couscoussier.</li><br>
+                <li>En fin de cuisson de la semoule, ajoutez environ 2 louches de la sauce du couscous (sans légumes).</li><br>
+                <li>Dressez la semoule en rond en laissant un puit au milieu.</li><br>
+                <li>Y dressez la sauce.</li><br>
+                <li>Disposez les carottes en 'soleil' avec les pommes de terre.</li>
+                </ol>  
+            </section>
+            <section>
+                <h2>Donnez votre avis dans cette recette!</h2>
+                <form action="#" method="post">
+                    <label for="nom et prénom">Votre nom et prénom :</label><br>
+                    <input type="text" id="nom et prénom" name="nom et prénom" required><br><br>
+                    <label for="avis">Votre avis:</label><br>
+                    <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </div>  
+        <footer>
+            <section id="contact">
+                <h2>Contact Info</h2>
+                <p>Vous pouvez nous contacter via :</p>                
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                    <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                    <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                </ul>                
+                <h3>Suivez-nous</h3>
+                <p>
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                </p>
+            </section>
+        </footer>    
+    </body>
+</html>

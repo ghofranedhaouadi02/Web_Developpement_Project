@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de Tiramisu
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette de Tiramisu</h1>
+            <p> Le tiramisu est le dessert incontournable de la gastronomie italienne. </p>
+            <div class="container">
+                <section>
+                    <h2>
+                        Tiramisu
+                    </h2>
+                    <img src="tiramisu.jpg" alt="image de Tiramisu" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>
+                    <li>16 cuillères de biscuits à la cuillère</li>
+                    <li>1,5 tasse de café</li>
+                    <li>26,5 g de cacao amer ou poudre de cacao non sucrée</li>
+                    <li>166,5 g de mascarpone</li>
+                    <li>53,5 g de sucre roux</li>
+                    <li>2 oeufs</li>
+                    <li>1,5 sachet de sucre vanillé</li>                                                           
+                </section>    
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:   Moyen</li>
+                    <li>Préparation:   20 min</li>
+                    <li>Attente:      8h</li>
+                    <li>Temps Total:    20min</li>       
+                </section>
+                <section>
+                    <h2>Préparation:</h2>
+                    <ol>
+                        <li>Séparez les blancs et les jaunes.</li><br>
+                        <li>Fouettez les jaunes avec le sucre et le sucre vanillé.</li><br>
+                        <li>Ajoutez le mascarpone préalablement assoupli et fouettez.</li><br>
+                        <li>Battez les blancs en neige.</li><br>
+                        <li>Incorporez-les délicatement au mélange jaunes-sucre-mascarpone.</li><br>
+                        <li>Imbibez les biscuits dans le café tiédi.</li><br>
+                        <li>Commencez par tapisser le fond d'un plat type plat à gratin avec une couche de biscuits imbibés. </li><br>
+                        <li>Ajoutez la moitié de la crème mascarpone.</li><br>
+                        <li>Recouvrez d'une seconde couche de biscuits.</li><br>
+                        <li>Ajoutez le reste de la crème.</li><br>
+                        <li>Couvrez avec du papier film.</li><br>
+                        <li>Réservez au frais pendant une nuit.</li><br>
+                        <li>Au moment de servir, saupoudrez de cacao.</li>    
+                    </ol>  
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis:</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div>
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                   
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer>      
+        </body>
+    </html>

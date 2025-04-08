@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Recette de kâak warka
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="index.html">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <h1> Recette de kâak warka</h1>
+            <p> La Recette Kâak Warka De Nos Grand-Mères Tunisiennes...</p>
+            <div class="container">
+                <section>
+                    <h2>
+                        Kâak Warka
+                    </h2>
+                    <img src="kaak warka.jpg" alt="image de Kâak Warka" >
+                </section>
+                <section>
+                    <h2>Ingrédients:(pour 4 personnes)</h2>
+                    <h3>Pour la farce amande :</h3>
+                    <li>Poudre d'amande fine 500g</li>
+                    <li>Eau de rose 100g</li>
+                    <h3>Pour la pâte kâak warka :</h3>
+                    <li>Farine 1kg</li>
+                    <li>Beurre 400g</li>
+                    <li>Eau de rose 350g</li>                    
+                </section>
+                <section>
+                    <h2>Réalisation:</h2>
+                    <li>Difficulté:   Moyen                </li>
+                    <li>Préparation:   30min</li>
+                    <li>Cuisson:      25min</li>
+                    <li>Temps Total:    55min</li>     
+                </section>
+                <section>
+                    <h2>Préparation:</h2>
+                    <ol>
+                        <h3>Pour la Pâte kâak warka :</h3>
+                        <li>Mélanger la farine avec le beurre en pommade ( à température ambiante).<br> Ajouter l’eau de rose et pétrir jusqu’à l’obtention d’une pâte lisse.<br> Laisser reposer quelques heures.</li><br>
+                        <h3>Pour la Farce amande :</h3>
+                        <li>Allier la poudre d’amande et le sucre ensemble puis incorporer l’eau de rose afin d’obtenir une texture homogène.</li><br>
+                        <li>Etaler la pâte en couche fine ( 1mm d’épaisseur ) à l’aide d’un rouleau à pâtisserie.</li><br>
+                        <li>Former la farce en des petits boudins ( 5cm)</li><br>
+                        <li>Enrouler la farce avec la pâte.</li><br>
+                        <li>Assembler les deux extrémités pour former une rondelle bien ronde.</li><br>
+                        <li>Enfourner à 180° pendant 10 minutes.</li>
+                    </ol>  
+                </section>
+                <section>
+                    <h2>Donnez votre avis dans cette recette!</h2>
+                    <form action="#" method="post">
+                        <label for="nom et prénom">Votre nom et prénom:</label><br>
+                        <input type="text" id="nom_prenom" name="nom et prénom" required><br><br>
+                        <label for="avis">Votre avis:</label><br>
+                        <textarea id="avis" name="avis" rows="4" required></textarea><br><br>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+            </div>
+            <footer>
+                <section id="contact">
+                    <h2>Contact Info</h2>
+                    <p>Vous pouvez nous contacter via :</p>                    
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:contact@cuisinedumonde.com">contact@cuisinedumonde.com</a></li>
+                        <li><strong>Téléphone:</strong> <a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+                        <li><strong>Adresse:</strong> 123 Rue des Saveurs, 75000 Paris, France</li>
+                    </ul>                    
+                    <h3>Suivez-nous</h3>
+                    <p>
+                        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    </p>
+                </section>
+            </footer>   
+        </body>
+    </html>
