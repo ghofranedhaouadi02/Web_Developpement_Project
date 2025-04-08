@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Types
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                <nav>
+                    <th scope="row">
+                        <h1>Cuisine Du Monde</h1>
+                    </th>
+                    <tr>
+                        <td>
+                            <a href="#accueil">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCatégories">Catégories</button>
+                            <form id="catégoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="catégories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact info">Contact Info</a>
+                        </td>
+                    </tr>
+                </nav>
+            </table>
+        </header>
+        <!--Barre de recherche-->
+        <section id="recherche">
+            <h2>Recherchez une recette</h2>
+            <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+            <button id="searchButton">Rechercher</button>
+        </section>
+        <h1>Choisissez un type</h1>
+        <div id="types-container">
+            <table>
+                <tr>
+                    <td>
+                        <a href="./desserts tunisiens.html">
+                            <img src="desserts tunisiens.jpg" alt="desserts" />
+                            <p>Desserts</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./salés tunisiens.html">
+                            <img src="salés tunisiens.jpg" alt="salés" />
+                            <p>Salés</p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
