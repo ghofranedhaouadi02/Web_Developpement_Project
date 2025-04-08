@@ -10,19 +10,20 @@
     <body>
         <header>
             <table>
-                <nav>
-                    <th scope="row">
-                        <h1>Cuisine Du Monde</h1>
-                    </th>
+                    <tr>
+                        <th scope="row">
+                            <h1>Cuisine Du Monde</h1>
+                        </th>
+                    </tr>
                     <tr>
                         <td>
                             <a href="#accueil">Accueil</a>
                         </td>
                         <td>
-                            <button id="toggleCatégories">Catégories</button>
-                            <form id="catégoriesForm" style="display: none;">
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
                                 <label for="catégories">Catégories</label>
-                                <select id="catégories" name="categories">
+                                <select id="categories" name="categories">
                                     <option value="cuisine tunisienne">Cuisine Tunisienne</option>
                                     <option value="cuisine française">Cuisine Française</option>
                                     <option value="cuisine italienne">Cuisine Italienne</option>
@@ -41,18 +42,17 @@
                             </form>
                         </td>
                         <td>
-                            <a href="#contact info">Contact Info</a>
+                            <a href="#contact_info">Contact Info</a>
+                        </td>
+                        <td>
+                            <section id="recherche">
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                            </section>
                         </td>
                     </tr>
-                </nav>
             </table>
         </header>
-        <!--Barre de recherche-->
-        <section id="recherche">
-            <h2>Recherchez une recette</h2>
-            <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
-            <button id="searchButton">Rechercher</button>
-        </section>
         <h1>Choisissez un type</h1>
         <div id="types-container">
             <table>
