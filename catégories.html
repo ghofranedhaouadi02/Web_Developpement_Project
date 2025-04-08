@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>
+            Catégories
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <table>
+                    <th scope="row">
+                        <h1>Cuisine Du Monde</h1>
+                    </th>
+                    <tr>
+                        <td>
+                            <a href="#accueil">Accueil</a>
+                        </td>
+                        <td>
+                            <button id="toggleCategories">Catégories</button>
+                            <form id="categoriesForm" style="display: none;">
+                                <label for="catégories">Catégories</label>
+                                <select id="categories" name="categories">
+                                    <option value="cuisine tunisienne">Cuisine Tunisienne</option>
+                                    <option value="cuisine française">Cuisine Française</option>
+                                    <option value="cuisine italienne">Cuisine Italienne</option>
+                                    <option value="cuisine asiatique">Cuisine Asiatique</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <button id="toggleTypes">Types</button>
+                            <form id="typesForm" style="display: none;">
+                                <label for="types">Types</label>
+                                <select id="types" name="types">
+                                    <option value="salés">Salés</option>
+                                    <option value="desserts">Desserts</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td>
+                            <a href="#contact_info">Contact Info</a>
+                        </td>
+                        <td>
+                                <input type="text" id="searchInput" placeholder="Entrez le nom de recette..." />
+                                <button id="searchButton">Rechercher</button>
+                        </td>
+                    </tr>
+            </table>
+        </header>
+        <h1>Choisissez une catégorie</h1>
+        <div id="categories-container">
+            <table>
+                <tr>
+                    <td>
+                        <a href="./cuisine tunisienne.html">
+                            <img src="cuisine tunisienne.jpg" alt="cuisine tunisienne" />
+                            <p>Cuisine Tunisienne</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./cuisine française.html">
+                            <img src="cuisine française.jpg" alt="cuisine française" />
+                            <p>Cuisine Française</p>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./cuisine italienne.html">
+                            <img src="cuisine italienne.jpg" alt="cuisine italienne" />
+                            <p>Cuisine Italienne</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./cuisine asiatique.html">
+                            <img src="cuisine asiatique.jpg" alt="cuisine asiatique" />
+                            <p>Cuisine Asiatique</p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+    
+    
